@@ -27,7 +27,7 @@ The assembler supports macro definitions and expansion. Macros are defined using
 
 The assembler targets a hypothetical processor defined by the following characteristics:
 
-  * **Machine Word Length:** 14 bits.
+  * **Machine Word Length:** 10 bits.
   * **Registers:** 8 general-purpose registers (r0 through r7).
   * **Memory:** Both the Instruction Counter (IC) and Data Counter (DC) start counting from memory address **100** (decimal).
   * **Program Status Word (PSW):** The system includes a Program Status Word, with the **Z (Zero) flag** being part of the PSW.
